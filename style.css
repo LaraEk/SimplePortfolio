@@ -1,0 +1,50 @@
+/* 
+*/
+
+h1 {
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 48px;
+    color: rgb(69, 96, 136);
+}
+
+p {
+    Font-Family: 'Roboto Slab', Serif;
+    Font-Size: 16px; 
+    color: rgb(69, 96, 136);
+}
+
+a {
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 16px; 
+    color:rgb(224, 52, 29)
+}
+
+#intro {
+    text-align: right;
+    position: absolute;
+    left: 34%;
+    margin-left: -3px;
+    top: 10%;
+}
+
+.vl {
+    border-left: 6px dashed rgb(224, 52, 29);
+    height: 900px;
+    position: absolute;
+    left: 70%;
+    margin-left: -3px;
+    top: 0;
+}
+
+/* ----- this isn't working???
+#redsun {
+    float: left;
+    top: 50%;
+    left: 0%; 
+}*/
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+}
