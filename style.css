@@ -43,6 +43,31 @@ a {
     left: 0%; 
 }*/
 
+h6 {
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 16px;
+    color: rgb(69, 96, 136);
+}
+
+#portfoliohighlights {
+    text-align: left;
+    float: left;
+    position: absolute;
+    left: 72%;
+    margin-left: -3px;
+    top: 55%;
+}
+
+#projectone {
+    Font-Size: 12px;
+}
+
+.portpic {
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+}
+  
 footer {
     text-align: center;
     position: fixed;
