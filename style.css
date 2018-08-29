@@ -16,7 +16,7 @@ p {
 a {
     Font-Family: 'Ruda', Sans-Serif;
     Font-Size: 16px; 
-    color:rgb(224, 52, 29)
+    color:rgb(224, 52, 29);
 }
 
 #intro {
@@ -29,19 +29,37 @@ a {
 
 .vl {
     border-left: 6px dashed rgb(224, 52, 29);
-    height: 900px;
+    height: 1500px;
     position: absolute;
     left: 70%;
     margin-left: -3px;
     top: 0;
 }
 
-/* ----- this isn't working???
 #redsun {
-    float: left;
-    top: 50%;
+    top: 30%;
     left: 0%; 
-}*/
+    position: absolute;
+}
+
+#smallsun {
+    float: right;
+    top: 10%;
+    right: 0%; 
+    position: absolute;
+}
+
+#bottomsun {
+    bottom: 0%;
+    right: 45%; 
+    position: fixed;
+}
+
+h5 {
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 20px;
+    color: rgb(69, 96, 136);
+}
 
 h6 {
     Font-Family: 'Ruda', Sans-Serif;
@@ -54,7 +72,7 @@ h6 {
     float: left;
     position: absolute;
     left: 72%;
-    margin-left: -3px;
+    margin: 3px;
     top: 55%;
 }
 
@@ -65,11 +83,17 @@ h6 {
 .portpic {
     float: left;
     padding: 10px;
+    margin: 10px;
     border-radius: 50%;
+    border-width: 2px;
+    border-style: dashed;
+    border-color:rgb(224, 52, 29); 
 }
   
 footer {
-    text-align: center;
+    Font-Family: 'Ruda', Sans-Serif;
+    Font-Size: 10px;
+    color: rgb(69, 96, 136);
     position: fixed;
     bottom: 10px;
 }
